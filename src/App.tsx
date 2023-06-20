@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './api'
 import Display from './components/Display';
+import Button from './components/Button';
 
 // center button, click and displays ayah from Quran
 // need to send HTTP GET request to Quran API
@@ -11,7 +12,7 @@ import Display from './components/Display';
 
 function App() {
   return (
-    <div><Display/></div>
+    <div><Display/> <Button/></div>
   );
 }
 
